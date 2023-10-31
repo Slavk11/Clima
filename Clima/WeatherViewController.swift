@@ -8,7 +8,9 @@
 import UIKit
 import SnapKit
 
-final class ViewController: UIViewController {
+final class WeatherViewController: UIViewController {
+    
+    // MARK: - UI
     
     private lazy var backgroundImageView: UIImageView = {
         let element = UIImageView()
@@ -96,6 +98,8 @@ final class ViewController: UIViewController {
     
     let emptyView = UIView()
     
+    // MARK: - Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -103,6 +107,8 @@ final class ViewController: UIViewController {
         setupConstraints()
 
     }
+    
+    // MARK: - Setup Views
     
     private func setView() {
         view.addSubview(backgroundImageView)
@@ -129,7 +135,9 @@ final class ViewController: UIViewController {
     }
 }
 
-extension ViewController {
+// MARK: - Setup Constraints
+
+extension WeatherViewController {
     
     private func setupConstraints() {
         backgroundImageView.snp.makeConstraints { make in

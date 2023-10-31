@@ -8,6 +8,7 @@
 import Foundation
 
 enum Constants {
+    static let id = "37e6684bdee56dd6a3bc4d7c802e2218"
     static let background = "background"
     static let weatherColor = "weatherColor"
     static let celsius = "°C"
