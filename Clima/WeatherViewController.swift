@@ -161,10 +161,6 @@ final class WeatherViewController: UIViewController {
         
         mainStackView.addArrangedSubview(cityLabel)
         mainStackView.addArrangedSubview(emptyView)
-        
-        tempLabel.text = "21"
-        tempTypeLabel.text = Constants.celsius
-        cityLabel.text = "London"
     }
 }
 
