@@ -47,6 +47,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7937499F2B128C7A001ACC6F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				79616DD82AF01FB300DC98C2 /* AppDelegate.swift */,
+				79616DDA2AF01FB300DC98C2 /* SceneDelegate.swift */,
+				79616DE62AF01FB400DC98C2 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		793749A02B128C9E001ACC6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				79616DDC2AF01FB300DC98C2 /* WeatherViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		793749A12B128CBD001ACC6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79616DF52AF1498F00DC98C2 /* WeatherData.swift */,
+				79616DF72AF149F900DC98C2 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		793749A22B128CF5001ACC6F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				79616DF12AF024D400DC98C2 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		793749A32B128D2A001ACC6F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				79616DF32AF144C300DC98C2 /* WeatherManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		793749A42B128D38001ACC6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79616DE12AF01FB400DC98C2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		79616DCC2AF01FB300DC98C2 = {
 			isa = PBXGroup;
 			children = (
@@ -66,16 +117,13 @@
 		79616DD72AF01FB300DC98C2 /* Clima */ = {
 			isa = PBXGroup;
 			children = (
-				79616DD82AF01FB300DC98C2 /* AppDelegate.swift */,
-				79616DDA2AF01FB300DC98C2 /* SceneDelegate.swift */,
-				79616DDC2AF01FB300DC98C2 /* WeatherViewController.swift */,
-				79616DF32AF144C300DC98C2 /* WeatherManager.swift */,
-				79616DF52AF1498F00DC98C2 /* WeatherData.swift */,
-				79616DF72AF149F900DC98C2 /* WeatherModel.swift */,
-				79616DF12AF024D400DC98C2 /* Constants.swift */,
-				79616DE12AF01FB400DC98C2 /* Assets.xcassets */,
+				7937499F2B128C7A001ACC6F /* App */,
+				793749A02B128C9E001ACC6F /* Controllers */,
+				793749A32B128D2A001ACC6F /* Services */,
+				793749A12B128CBD001ACC6F /* Model */,
+				793749A22B128CF5001ACC6F /* Helpers */,
+				793749A42B128D38001ACC6F /* Resources */,
 				79616DE32AF01FB400DC98C2 /* LaunchScreen.storyboard */,
-				79616DE62AF01FB400DC98C2 /* Info.plist */,
 			);
 			path = Clima;
 			sourceTree = "<group>";
@@ -309,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MLZMX2BSJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Clima/Info.plist;
+				INFOPLIST_FILE = Clima/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -336,7 +384,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MLZMX2BSJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Clima/Info.plist;
+				INFOPLIST_FILE = Clima/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
