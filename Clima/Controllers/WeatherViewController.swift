@@ -58,7 +58,7 @@ final class WeatherViewController: UIViewController {
     
     private lazy var searchButton: UIButton = {
         let element = UIButton()
-        element.setBackgroundImage(UIImage(systemName: Constants.searchSF), for: .normal)
+        element.setImage(UIImage(systemName: Constants.searchSF), for: .normal)
         element.addTarget(self, action: #selector(searchPressed), for: .touchUpInside)
         element.tintColor = .label
         return element
